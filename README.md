@@ -32,7 +32,7 @@ A multilingual translation application that translates text from one language to
 
 ---
 
-### 🤖 2. AI Chatbot
+### 🤖 2. AI Chatbot (you can find it as chatbot.py)
 
 A conversational AI chatbot capable of answering user questions in natural language.
 

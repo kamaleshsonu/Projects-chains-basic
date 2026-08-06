@@ -3,20 +3,18 @@ import streamlit as st
 
 
 def get_groq_response(input_text):
+    json_body={
+  "input": {
+    "language": "French",
+    "text": "Hi"
+  },
+  "config": {},
+  "kwargs": {}
+}
+    response=requests.post("http://127.0.0.1:8000/chain/invoke",json_body)
 
-    json_body = {
-        "input": {
-            "language": "Hindi",
-            "text": input_text
-        },
-        "config": {},
-        "kwargs": {}
-    }
+    print(response.json())
 
-    response = requests.post(
-        "http://127.0.0.1:8000/chain/invoke",
-        json=json_body
-    )
 
     return response.json()
 

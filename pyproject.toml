@@ -31,6 +31,7 @@ dependencies = [
     "pytube>=15.0.0",
     "sentence-transformers>=5.6.1",
     "sqlalchemy>=2.0.51",
+    "streamlit>=1.60.0",
     "unstructured>=0.24.1",
     "validators==0.28.1",
     "wikipedia>=1.4.0",
